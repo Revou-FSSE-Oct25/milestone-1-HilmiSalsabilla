@@ -16,5 +16,9 @@ This is apersonal webiste built as part of the FSSE RevoU program with semantic 
 - CSS3
 - Git & GitHub for version control and hosting.
 
+## Deployment
+View the live site here:
+[Hilmi Salsabilla | Personal Website](https://revou-fsse-oct25.github.io/milestone-1-HilmiSalsabilla/)
+
 ## Contact
 Feel free to reach out via the contact form or social links!
