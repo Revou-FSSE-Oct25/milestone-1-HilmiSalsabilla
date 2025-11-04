@@ -3,7 +3,7 @@
 # Personal Website | Hilmi Salsabilla
 
 ## Overview
-This is RevoU Milestone 1 Project built entirely with semantic HTML. It become my personal portofolio where i can introducing myself, share my background and my projects to you!
+This is apersonal webiste built as part of the FSSE RevoU program with semantic HTML5 and CSS3. It become my personal portofolio where i can introducing myself, showcase my projects and allow other to contact me easily!
 
 ## Features
 - Home section is the introduction of myself.
@@ -12,5 +12,9 @@ This is RevoU Milestone 1 Project built entirely with semantic HTML. It become m
 - Contact section is link of the account that you can raech me and form submit message.
 
 ## Technologies used
-- Semantic HTML.
+- Semantic HTML5.
+- CSS3
 - Git & GitHub for version control and hosting.
+
+## Contact
+Feel free to reach out via the contact form or social links!
