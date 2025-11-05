@@ -11,9 +11,10 @@
 
     <!-- seo meta -->
     <meta name="description" content="I'm Hilmi Salsabilla, an Information Systems student and web developer. Explore my projects, experience, and personal portfolio.">
+    <meta name="keywords" content="Hilmi Salsabilla, web developer, portofolio, projects, Information Systems">
     <meta name="author" content="Hilmi Salsabilla">
 </head>
-<body>
+<body id="top">
     <!-- header -->
     <header class="site-header">
         <h1 class="logo">
@@ -58,19 +59,25 @@
                 <p>
                     Right now, I’m working toward my Bachelor’s degree in Information Systems at Metamedia University.
                 </p>
+            </article>
 
+            <article>
                 <h3>Experience</h3>
                 <p>
-                    Completed an ICT internship at <strong>PT Semen Padang</strong> (July–August 2023) developing a web-based printer monitoring system using <em>PHP (CodeIgniter)</em>, <em>MySQL</em>, and <em>Bootstrap</em>.
+                    Completed an ICT internship at <strong>PT Semen Padang</strong> (<time datetime="2023-07">July</time>–<time datetime="2023-08">August 2023</time>) developing a web-based printer monitoring system using <em>PHP (CodeIgniter)</em>, <em>MySQL</em>, and <em>Bootstrap</em>.
                 </p>
-
+            </article>
+                
+            <article>
                 <h3>Skills</h3>
                 <ul>
                     <li>HTML, CSS, JavaScript</li>
                     <li>PHP (CodeIgniter & Laravel)</li>
                     <li>GitHub & Version Control</li>
                 </ul>
-
+            </article>
+                
+            <article>
                 <h3>Interest</h3>
                 <p>
                     I love spending time building real projects while learning from <strong>Udemy</strong> courses — turning ideas into working web apps is what excites me most.
@@ -112,51 +119,46 @@
 
             <form action="#" method="post">
                 <fieldset>
-                    <legend><strong>Get in Touch</strong></legend>
+                    <legend>Get in Touch</legend>
 
                     <label for="name">Name:</label>
-                    <input type="text" name="name" id="name" placeholder="Your name" required>
+                    <input type="text" name="name" id="name" placeholder="Your name" autocomplete="name" required>
 
                     <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" placeholder="email@here.com" required>
+                    <input type="email" name="email" id="email" placeholder="email@here.com" autocomplete="email" required>
 
                     <label for="message">Message:</label>
-                    <textarea name="message" id="message" placeholder="Your message here"></textarea>
+                    <textarea name="message" id="message" placeholder="Your message here" required></textarea>
 
                     <button type="submit">Send Message</button>
+                    <button type="reset">Reset</button>
                 </fieldset>
             </form>
         </section>
+
+        <a href="#top" class="back-to-top" aria-label="Back to top of page">⬆ Back to Top</a>
     </main>
 
     <!-- footer -->
     <footer class="site-footer">
         <p>© 2025 <strong>Hilmi Salsabilla</strong>. All rights reserved.</p>
 
-        <nav aria-label="Social links">
-            <ul class="social-links">
-                <li>
-                    <a href="https://www.linkedin.com/in/hilmi-salsabilla/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
-                        <img src="assets/logo/linkedin.png" alt="LinkedIn Logo" loading="lazy">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/hsalsabillaa/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile">
-                        <img src="assets/logo/instagram.png" alt="Instagram Logo" loading="lazy">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/HilmiSalsabilla" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
-                        <img src="assets/logo/github.png" alt="GitHub Logo" loading="lazy">
-                    </a>
-                </li>
-                <li>
-                    <a href="mailto:hilmisalsabilla6@gmail.com" aria-label="Email Hilmi Salsabilla">
-                        <img src="assets/logo/email.png" alt="Email Logo" loading="lazy">
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        <address>
+            <nav aria-label="Social links" class="social-links">
+                <a href="https://www.linkedin.com/in/hilmi-salsabilla/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                <img src="assets/logo/linkedin.png" alt="LinkedIn Logo" loading="lazy">
+                </a>
+                <a href="https://www.instagram.com/hsalsabillaa/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile">
+                    <img src="assets/logo/instagram.png" alt="Instagram Logo" loading="lazy">
+                </a>
+                <a href="https://github.com/HilmiSalsabilla" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                    <img src="assets/logo/github.png" alt="GitHub Logo" loading="lazy">
+                </a>
+                <a href="mailto:hilmisalsabilla6@gmail.com" aria-label="Email Hilmi Salsabilla">
+                    <img src="assets/logo/email.png" alt="Email Logo" loading="lazy">
+                </a>
+            </nav>
+        </address>
     </footer>
 </body>
 </html>
