@@ -11,9 +11,10 @@
 
     <!-- seo meta -->
     <meta name="description" content="Explore web development projects by Hilmi Salsabilla — showcasing hands-on experience in HTML, CSS, JavaScript, and PHP frameworks.">
+    <meta name="keywords" content="Hilmi Salsabilla, web developer, portfolio, projects, Information Systems">
     <meta name="author" content="Hilmi Salsabilla">
 </head>
-<body>
+<body id="top">
     <!-- header -->
     <header class="site-header">
         <h1 class="logo">
@@ -39,21 +40,24 @@
             </p>
 
             <!-- internal nav -->
-            <nav aria-label="Page Section">
-                <ul>
-                    <li><a href="#fanpage-project">1D Fanpage Project</a></li>
-                    <li><a href="#taskflow-project">TaskFlow Project</a></li>
-                    <li><a href="#forum-project">Forum Project</a></li>
-                    <li><a href="#html-project">HTML Project</a></li>
-                    <li><a href="#todos-project">ToDos Project</a></li>
-                    <li><a href="#bookstore-project">Bookstore Project</a></li>
-                </ul>
-            </nav>
+            <aside>
+                <nav aria-label="Page Section">
+                    <ul>
+                        <li><a href="#fanpage-project">1D Fanpage Project</a></li>
+                        <li><a href="#taskflow-project">TaskFlow Project</a></li>
+                        <li><a href="#forum-project">Forum Project</a></li>
+                        <li><a href="#html-project">HTML Project</a></li>
+                        <li><a href="#todos-project">ToDos Project</a></li>
+                        <li><a href="#bookstore-project">Bookstore Project</a></li>
+                    </ul>
+                </nav>
+            </aside>
 
             <!-- fan page -->
             <section class="project-card" id="fanpage-project">
                 <figure>
                     <img src="../assets/preview/fanpage.png" alt="Preview of 1D Fan Page" loading="lazy">
+                    <figcaption>Semantic HTML fan page for accessibility practice</figcaption>
                 </figure>
 
                 <article class="project-info">
@@ -61,9 +65,11 @@
                     <p>
                         A fun, semantic HTML project designed to practice accessibility and structure using HTML5 and CSS basics.
                     </p>
-                    <p>
-                        🔗 <a href="https://hilmisalsabilla.github.io/Lecture2-HTMLSemantic/" target="_blank" rel="noopener noreferrer">Visit Fan Page</a>
-                    </p>
+                    <ul class="project-link">
+                        <li>
+                            🔗 <a href="https://hilmisalsabilla.github.io/Lecture2-HTMLSemantic/" target="_blank" rel="noopener noreferrer">Visit Fan Page</a>
+                        </li>
+                    </ul>
                 </article>
             </section>
 
@@ -71,6 +77,7 @@
             <section class="project-card" id="taskflow-project">
                 <figure>
                     <img src="../assets/preview/taskflow.png" alt="Preview of Taskflow Project" loading="lazy">
+                    <figcaption>Task management app using HTML, CSS, and JavaScript</figcaption>
                 </figure>
 
                 <article class="project-info">
@@ -78,11 +85,11 @@
                     <p>
                         <strong>TaskFlow</strong> is a task management web app that helps users organize and track daily activities efficiently. Built with HTML, CSS, and JavaScript — featuring a responsive and intuitive UI.
                     </p>
-                    <p>
-                        🔗 <a href="https://github.com/HilmiSalsabilla/taskflow" target="_blank" rel="noopener noreferrer">
-                            Taskflow GitHub Repository
-                        </a>
-                    </p>
+                    <ul class="project-link">
+                        <li>
+                            🔗 <a href="https://github.com/HilmiSalsabilla/taskflow" target="_blank" rel="noopener noreferrer">Taskflow GitHub Repository</a>
+                        </li>
+                    </ul>
                 </article>
             </section>
 
@@ -90,6 +97,7 @@
             <section class="project-card" id="forum-project">
                 <figure>
                     <img src="../assets/preview/forum.png" alt="Preview of Forum Web App" loading="lazy">
+                    <figcaption>Student discussion platform prototype</figcaption>
                 </figure>
 
                 <article class="project-info">
@@ -97,11 +105,11 @@
                     <p>
                         A discussion platform prototype for students to share ideas, questions, and resources. Focused on user interaction and front-end layout structure.
                     </p>
-                    <p>
-                        🔗 <a href="https://github.com/HilmiSalsabilla/forum" target="_blank" rel="noopener noreferrer">
-                            Forum GitHub Repositories
-                        </a>
-                    </p>
+                    <ul class="project-link">
+                        <li>
+                            🔗 <a href="https://github.com/HilmiSalsabilla/forum" target="_blank" rel="noopener noreferrer">Forum GitHub Repositories</a>
+                        </li>
+                    </ul>
                 </article>
             </section>
 
@@ -109,6 +117,7 @@
             <section class="project-card" id="html-project">
                 <figure>
                     <img src="../assets/preview/html.png" alt="Preview of HTML Projects Collection" loading="lazy">
+                    <figcaption>30 mini projects using JavaScript, HTML, and CSS</figcaption>
                 </figure>
 
                 <article class="project-info">
@@ -116,9 +125,11 @@
                     <p>
                         A 30-day mini project challenge using <strong>HTML, CSS, and JavaScript</strong>. Built to strengthen DOM manipulation and problem-solving skills.
                     </p>
-                    <p>
-                        🔗 <a href="https://hilmisalsabilla.github.io/HTML-Projects/" target="_blank" rel="noopener noreferrer">View Live Projects</a>
-                    </p>
+                    <ul class="project-link">
+                        <li>
+                            🔗 <a href="https://hilmisalsabilla.github.io/HTML-Projects/" target="_blank" rel="noopener noreferrer">View Live Projects</a>
+                        </li>
+                    </ul>
                 </article>
             </section>
 
@@ -126,6 +137,7 @@
             <section class="project-card" id="todos-project">
                 <figure>
                     <img src="../assets/preview/todos.png" alt="Preview of Todos project" loading="lazy">
+                    <figcaption>Lightweight JavaScript-based task list app</figcaption>
                 </figure>
 
                 <article class="project-info">
@@ -133,11 +145,11 @@
                     <p>
                         <strong>ToDos</strong> is a simple and lightweight task list app to practice JavaScript DOM manipulation. Users can add, remove, and mark tasks as complete.
                     </p>
-                    <p>
-                        🔗 <a href="https://github.com/HilmiSalsabilla/todos" target="_blank" rel="noopener noreferrer">
-                            ToDos GitHub Repositories
-                        </a>
-                    </p>
+                    <ul class="project-link">
+                        <li>
+                            🔗 <a href="https://github.com/HilmiSalsabilla/todos" target="_blank" rel="noopener noreferrer">ToDos GitHub Repositories</a>
+                        </li>
+                    </ul>
                 </article>
             </section>
             
@@ -145,6 +157,7 @@
             <section class="project-card" id="bookstore-project">
                 <figure>
                     <img src="../assets/preview/bookstore.png" alt="Preview of Bookstore Web Management project" loading="lazy">
+                    <figcaption>CRUD web app built with CodeIgniter 3</figcaption>
                 </figure>
 
                 <article class="project-info">
@@ -152,42 +165,48 @@
                     <p>
                         A <strong>CodeIgniter 3</strong>-based CRUD web application for managing books, users, and orders. Includes authentication, admin dashboard, and database integration.
                     </p>
-                    <p>
-                        🔗 <a href="https://github.com/HilmiSalsabilla/bookstore" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
-                    </p>
+                    <ul class="project-link">
+                        <li>
+                            🔗 <a href="https://github.com/HilmiSalsabilla/bookstore" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+                        </li>
+                    </ul>
                 </article>
             </section>
         </section>
+
+        <a href="#top" class="back-to-top" aria-label="Back to top of page">⬆ Back to Top</a>
     </main>
 
     <!-- footer -->
-    <footer class="site-footer">
+    <footer class="site-footer" aria-label="Site Footer">
         <p>© 2025 <strong>Hilmi Salsabilla</strong>. All rights reserved.</p>
 
-        <nav aria-label="Social links">
-            <ul class="social-links">
-                <li>
-                    <a href="https://www.linkedin.com/in/hilmi-salsabilla/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
-                        <img src="../assets/logo/linkedin.png" alt="LinkedIn Logo" loading="lazy">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/hsalsabillaa/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile">
-                        <img src="../assets/logo/instagram.png" alt="Instagram Logo" loading="lazy">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/HilmiSalsabilla" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
-                        <img src="../assets/logo/github.png" alt="GitHub Logo" loading="lazy">
-                    </a>
-                </li>
-                <li>
-                    <a href="mailto:hilmisalsabilla6@gmail.com" aria-label="Email Hilmi Salsabilla">
-                        <img src="../assets/logo/email.png" alt="Email Logo" loading="lazy">
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        <address>
+            <nav aria-label="Social links">
+                <ul class="social-links">
+                    <li>
+                        <a href="https://www.linkedin.com/in/hilmi-salsabilla/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                            <img src="../assets/logo/linkedin.png" alt="LinkedIn Logo" loading="lazy">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/hsalsabillaa/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile">
+                            <img src="../assets/logo/instagram.png" alt="Instagram Logo" loading="lazy">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/HilmiSalsabilla" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                            <img src="../assets/logo/github.png" alt="GitHub Logo" loading="lazy">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:hilmisalsabilla6@gmail.com" aria-label="Email Hilmi Salsabilla">
+                            <img src="../assets/logo/email.png" alt="Email Logo" loading="lazy">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </address>
     </footer>
 </body>
 </html>
