@@ -16,7 +16,7 @@
 </head>
 <body id="top">
     <!-- header -->
-    <header class="site-header">
+    <header class="site-header" role="banner">
         <h1 class="logo">
             <a href="../index.html" aria-label="Homepage of Hilmi Salsabilla">Hilmi Salsabilla</a>
         </h1>
@@ -33,16 +33,16 @@
     </header>
     
     <!-- main -->
-    <main id="main-content">
+    <main id="main-content" role="main">
         <section class="contact" aria-labelledby="contact-heading">
             <h2 id="contact-heading">Get in Touch!</h2>
             <p>
                 I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out using the form below or through my social links.
             </p>
 
-            <form action="#" method="post" class="contact-form">
+            <form action="#" method="post" class="contact-form" role="form">
                 <fieldset>
-                    <legend>Contact Form</legend>
+                    <legend>Message me!</legend>
 
                     <label for="fullname">Fullname</label>
                     <input type="text" name="fullname" id="fullname" placeholder="Your name" required>
@@ -59,7 +59,7 @@
             </form>
         </section>
 
-        <section class="contact-info">
+        <!-- <section class="contact-info" role="contentinfo">
             <h3>Connect with me</h3>
             <address>
                 <ul class="social-links">
@@ -85,14 +85,41 @@
                     </li>
                 </ul>
             </address>
-        </section>
+        </section> -->
 
         <a href="#top" class="back-to-top" aria-label="Back to top of page">⬆ Back to Top</a>
     </main>
 
     <!-- footer -->
-    <footer class="site-footer">
+    <footer class="site-footer" role="contentinfo">
         <p>© 2025 <strong>Hilmi Salsabilla</strong>. All rights reserved.</p>
+
+        <address>
+            <nav aria-label="Social links">
+                <ul class="social-links">
+                    <li>
+                        <a href="https://www.linkedin.com/in/hilmi-salsabilla/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                            <img src="../assets/logo/linkedin.png" alt="LinkedIn Logo" loading="lazy">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/hsalsabillaa/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile">
+                            <img src="../assets/logo/instagram.png" alt="Instagram Logo" loading="lazy">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/HilmiSalsabilla" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                            <img src="../assets/logo/github.png" alt="GitHub Logo" loading="lazy">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:hilmisalsabilla6@gmail.com" aria-label="Email Hilmi Salsabilla">
+                            <img src="../assets/logo/email.png" alt="Email Logo" loading="lazy">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </address>
     </footer>
 </body>
 </html>

@@ -16,7 +16,7 @@
 </head>
 <body id="top">
     <!-- header -->
-    <header class="site-header">
+    <header class="site-header" role="banner">
         <h1 class="logo">
             <a href="../index.html" aria-label="Homepage of Hilmi Salsabilla">Hilmi Salsabilla</a>
         </h1>
@@ -33,7 +33,7 @@
     </header>
 
     <!-- main -->
-    <main id="main-content">
+    <main id="main-content" role="main">
         <section class="project" aria-labelledby="projects-heading">
             <h2 id="projects-heading">My projects</h2>
             <p>
@@ -42,7 +42,8 @@
 
             <!-- internal nav -->
             <aside>
-                <nav aria-label="Page Section">
+                <h3 id="section-nav-heading">Jump to Project</h3>
+                <nav aria-labelledby="section-nav-heading">
                     <ul>
                         <li><a href="#fanpage-project">1D Fanpage Project</a></li>
                         <li><a href="#taskflow-project">TaskFlow Project</a></li>
@@ -179,7 +180,7 @@
     </main>
 
     <!-- footer -->
-    <footer class="site-footer" aria-label="Site Footer">
+    <footer class="site-footer" role="contentinfo">
         <p>© 2025 <strong>Hilmi Salsabilla</strong>. All rights reserved.</p>
 
         <address>
