@@ -29,14 +29,14 @@ This is apersonal webiste built as part of the FSSE RevoU program with semantic 
     │   ├── about.html/
     │   ├── contact.html/
     │   └── projects.html/
-    ├── index.php
+    ├── index.html
     └── README.md
 ```
 
 ## Deployment
-View the live site here:
-[Hilmi Salsabilla | Personal Website](https://revou-fsse-oct25.github.io/milestone-1-HilmiSalsabilla/)
-This is the preview of my Personal Website:
+- View the live site here: [Hilmi Salsabilla | Personal Website](https://revou-fsse-oct25.github.io/milestone-1-HilmiSalsabilla/)
+- This is the preview of my Personal Website:
+
 | Page | Preview |
 | :--- | :-----: |
 | Homepage | ![Homepage](/assets/preview/index.png) |
