@@ -25,6 +25,8 @@ This is apersonal webiste built as part of the FSSE RevoU program with semantic 
     │   ├── images/
     │   ├── logo/
     │   └── preview/
+    |       ├── pages/
+    |       └── projects/
     ├── pages/
     │   ├── about.html/
     │   ├── contact.html/
@@ -39,10 +41,10 @@ This is apersonal webiste built as part of the FSSE RevoU program with semantic 
 
 | Page | Preview |
 | :--- | :-----: |
-| Homepage | ![Homepage](/assets/preview/index.png) |
-| About Page | ![About Page](/assets/preview/about.png) |
-| Projects Page | ![Projects Page](/assets/preview/projects.png) |
-| Contact Page | ![Contact Page](/assets/preview/contact.png) |
+| Homepage | ![Homepage](/assets/preview/pages/index.png) |
+| About Page | ![About Page](/assets/preview/pages/about.png) |
+| Projects Page | ![Projects Page](/assets/preview/pages/projects.png) |
+| Contact Page | ![Contact Page](/assets/preview/pages/contact.png) |
 
 ## Contact
 Feel free to reach out via the contact form or social links!
