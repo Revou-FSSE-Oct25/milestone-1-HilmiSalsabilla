@@ -79,50 +79,12 @@ section {
     box-shadow: 0 3px 9px rgba(70, 143, 175, 0.2);
 }
 
-/* hero */
-.hero {
+.project {
     text-align: center;
-    background-color: #FFF;
     padding: 40px;
 }
 
-.hero img {
-    width: 320px;
-    height: 320px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid #468FAF;
-    box-shadow: 0 3px 9px rgba(70, 143, 175, 0.2);
-    margin-bottom: 20px;
-}
-
-.hero figcaption {
-    font-size: 14px;
-    color: #468FAF;
-    font-style: italic;
-    margin-bottom: 20px;
-}
-
-.hero h2 {
-    font-size: 38px;
-    color: #1A1A1A;
-    margin-bottom: 20px;
-    border-bottom: 3px solid #468FAF;
-    display: inline-block;
-    letter-spacing: 0.5px;
-}
-
-.hero p {
-    font-size: 18px;
-    color: #1A1A1A;
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-/* section heading */
-.about h2,
-.projects h2,
-.contact h2 {
+.project h2 {
     font-size: 28px;
     color: #1A1A1A;
     margin-bottom: 20px;
@@ -131,27 +93,66 @@ section {
     letter-spacing: 0.5px;
 }
 
-/* paragraph */
-.about p,
-.projects p {
+.project p {
     font-size: 18px;
     color: #1A1A1A;
     text-align: justify;
     margin-bottom: 20px;
 }
 
-/* article */
-.about article,
-.projects article {
-    background-color: #EAF4FB;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border-left: 3px solid #468FAF;
+aside {
+    margin-bottom: 40px;
 }
 
-.about h3,
-.projects h3 {
+aside h3 {
+    font-size: 18px;
+    color: #468FAF;
+    margin-bottom: 20px;
+}
+
+aside ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+aside ul li a:hover {
+    color: #468FAF;
+}
+
+.project-card {
+    margin-bottom: 50px;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 9px rgba(70, 143, 175, 0.2);
+    transition: all 0.3s ease;
+}
+
+.project-card img:hover {
+    transform: scale(1.05);
+}
+
+.project-card figcaption {
+    font-size: 14px;
+    color: #468FAF;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.project-info h3 {
     font-size: 24px;
     color: #1A1A1A;
     margin-bottom: 20px;
@@ -159,107 +160,32 @@ section {
     display: inline-block;
 }
 
-/* list */
-.about ul {
+.project-info p {
+    font-size: 18px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.project-link {
     list-style: none;
-    padding-left: 10px;
+    text-align: left;
 }
 
-.about ul li {
-    padding: 8px 0;
-    color: #555;
+.project-link li {
+    margin-bottom: 10px;
 }
 
-.about ul li::before {
-    content: "✓";
-    color: #468FAF;
-    font-weight: 700;
-    margin-right: 10px;
-}
-
-/* project link */
-.projects a {
+.project-link li a {
     text-decoration: none;
     color: #0077B6;
+    font-size: 18px;
+    font-weight: 500;
     transition: color 0.3s ease;
 }
 
-.projects a:hover {
+.project-info ul li a:hover {
     color: #023E8A;
-}
-
-/* contact form */
-fieldset {
-    border: none;
-    padding: 10px 0;
-}
-
-legend {
-    font-size: 20px;
-    margin-bottom: 20px;
-    color: #1A1A1A;
-}
-
-label {
-    display: block;
-    margin-bottom: 10px;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-input[type="text"], 
-input[type="email"], 
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 2px solid #D0DCE5;
-    border-radius: 5px;
-    font-size: 18px;
-    font-family: inherit;
-    transition: border-color 0.3s ease;
-}
-
-input[type="text"]:focus, 
-input[type="email"]:focus, 
-textarea:focus {
-    border-color: #468FAF;
-    outline: none;
-}
-
-textarea {
-    min-height: 150px;
-    resize: vertical;
-}
-
-/* button */
-button {
-    padding: 12px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-right: 10px;
-    transition: all 0.3s ease;
-}
-
-button[type="submit"] {
-    background-color: #0077B6;
-    color: #FFF;
-    box-shadow: 0 2px 6px rgba(0, 119, 182, 0.3);
-}
-
-button[type="submit"]:hover {
-    background-color: #023E8A;
-}
-
-button[type="reset"] {
-    background-color: #468FAF;
-    color: #FFF;
-}
-
-button[type="reset"]:hover {
-    background-color: #023E8A;
 }
 
 /* back-to-top */

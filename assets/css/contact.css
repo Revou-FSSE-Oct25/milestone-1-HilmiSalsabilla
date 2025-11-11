@@ -79,49 +79,6 @@ section {
     box-shadow: 0 3px 9px rgba(70, 143, 175, 0.2);
 }
 
-/* hero */
-.hero {
-    text-align: center;
-    background-color: #FFF;
-    padding: 40px;
-}
-
-.hero img {
-    width: 320px;
-    height: 320px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid #468FAF;
-    box-shadow: 0 3px 9px rgba(70, 143, 175, 0.2);
-    margin-bottom: 20px;
-}
-
-.hero figcaption {
-    font-size: 14px;
-    color: #468FAF;
-    font-style: italic;
-    margin-bottom: 20px;
-}
-
-.hero h2 {
-    font-size: 38px;
-    color: #1A1A1A;
-    margin-bottom: 20px;
-    border-bottom: 3px solid #468FAF;
-    display: inline-block;
-    letter-spacing: 0.5px;
-}
-
-.hero p {
-    font-size: 18px;
-    color: #1A1A1A;
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-/* section heading */
-.about h2,
-.projects h2,
 .contact h2 {
     font-size: 28px;
     color: #1A1A1A;
@@ -131,72 +88,20 @@ section {
     letter-spacing: 0.5px;
 }
 
-/* paragraph */
-.about p,
-.projects p {
+.contact p {
     font-size: 18px;
     color: #1A1A1A;
     text-align: justify;
     margin-bottom: 20px;
 }
 
-/* article */
-.about article,
-.projects article {
-    background-color: #EAF4FB;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border-left: 3px solid #468FAF;
-}
-
-.about h3,
-.projects h3 {
-    font-size: 24px;
-    color: #1A1A1A;
-    margin-bottom: 20px;
-    border-bottom: 3px solid #468FAF;
-    display: inline-block;
-}
-
-/* list */
-.about ul {
-    list-style: none;
-    padding-left: 10px;
-}
-
-.about ul li {
-    padding: 8px 0;
-    color: #555;
-}
-
-.about ul li::before {
-    content: "✓";
-    color: #468FAF;
-    font-weight: 700;
-    margin-right: 10px;
-}
-
-/* project link */
-.projects a {
-    text-decoration: none;
-    color: #0077B6;
-    transition: color 0.3s ease;
-}
-
-.projects a:hover {
-    color: #023E8A;
-}
-
-/* contact form */
 fieldset {
     border: none;
-    padding: 10px 0;
 }
 
 legend {
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #1A1A1A;
 }
 
