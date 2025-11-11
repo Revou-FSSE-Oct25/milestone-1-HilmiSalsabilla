@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #1A1A1A;
+    background-color: #F0F4F8;
+}
+
+.site-header {
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    box-shadow: 0 3px 9px rgba(70, 143, 175, 0.2);
+}
+
+.logo a {
+    color: #1A1A1A;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.logo a:hover {
+    color: #468FAF;
+}
+
+/* nav menu */
+.list-nav {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+.list-nav li a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.list-nav li a:hover,
+.list-nav li a[aria-current="page"] {
+    color: #468FAF;
+}
+
+.list-nav li a[download] {
+    color: #0077B6;
+}
+
+.list-nav li a[download]:hover {
+    color: #023E8A;
+}
+
+/* main */
+#main-content {
+    max-width: 1000px;
+    margin: 30px auto 0;
+    padding: 20px;
+}
+
+/* section */
+section {
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0 3px 9px rgba(70, 143, 175, 0.2);
+}
+
+.project {
+    text-align: center;
+    padding: 40px;
+}
+
+.project h2 {
+    font-size: 28px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #468FAF;
+    display: inline-block;
+    letter-spacing: 0.5px;
+}
+
+.project p {
+    font-size: 18px;
+    color: #1A1A1A;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+aside {
+    margin-bottom: 40px;
+}
+
+aside h3 {
+    font-size: 18px;
+    color: #468FAF;
+    margin-bottom: 20px;
+}
+
+aside ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+aside ul li a:hover {
+    color: #468FAF;
+}
+
+.project-card {
+    margin-bottom: 50px;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 9px rgba(70, 143, 175, 0.2);
+    transition: all 0.3s ease;
+}
+
+.project-card img:hover {
+    transform: scale(1.05);
+}
+
+.project-card figcaption {
+    font-size: 14px;
+    color: #468FAF;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.project-info h3 {
+    font-size: 24px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #468FAF;
+    display: inline-block;
+}
+
+.project-info p {
+    font-size: 18px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.project-link {
+    list-style: none;
+    text-align: left;
+}
+
+.project-link li {
+    margin-bottom: 10px;
+}
+
+.project-link li a {
+    text-decoration: none;
+    color: #0077B6;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.project-info ul li a:hover {
+    color: #023E8A;
+}
+
+/* back-to-top */
+.back-to-top {
+    position: fixed;
+    bottom: 90px;
+    right: 30px;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #0077B6;
+    color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: #023E8A;
+    transform: scale(1.1);
+}
+
+/* footer */
+.site-footer {
+    background-color: #E0E8F0;
+    padding: 24px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #C0D0E0;
+}
+
+.site-footer p {
+    margin: 0;
+    font-size: 15px;
+    color: #333;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-links img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
